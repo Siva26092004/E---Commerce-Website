@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Recommendation System</title>
+    <link rel="stylesheet" href="ecrsstyles.css">
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>UrbanCart</h1>
+        </div>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="Cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+                <li><a href="orders.html"><i class="fas fa-box"></i> Orders</a></li>
+                <li><a href="login.html"><i class="fas fa-user"></i> Login</a></li>
+            </ul>
+            <ul class="category-nav">
+                <li><a href="#groceries"><i class="fas fa-apple-alt"></i> Groceries</a></li>
+                <li><a href="#home-appliances"><i class="fas fa-couch"></i> Home Appliances</a></li>
+                <li><a href="#mobile-phones"><i class="fas fa-mobile-alt"></i> Mobile Phones & Accessories</a></li>
+                <li><a href="#clothing"><i class="fas fa-tshirt"></i> Clothing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Welcome to UrbanCart</h2>
+                <p>Your one-stop shop for all your needs!</p>
+                <a href="#groceries" class="cta-button"><i class="fas fa-shopping-basket"></i> Shop Now</a>
+            </div>
+        </section>
+
+        <section id="groceries">
+            <h2><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABE0lEQVR4nO2UQWoCMRSGv50Fcam7egrpohaq4BV6CV16gC4rurXiGQo9w0gHoZtuWyh4AF1b3DklEGFIm8ybwScqfvAzvJdJPhIyAyfOHEhSiQ8lfnfEplanBHw74gVwtS9BG/gAfuyzbPuPjnQX0y/ENdAHarauAFNgC7zaXh3YeMQbO56byC6wAh5S/Y7dvWHkke4yzCtt/bPIC1B13vvKEH8W3W3ixN2975jTx30h8++jkfivVl+a2ByPOD6A9A0Ps8CkW6CZo3YTEWAiOCJp7WYcEvcUxd2QuK0ovg+Ja4riKhmsFMRLBMwUxJFE/OyZbD6Vuxy1+EZLbnbRdBFwoyBuIGQArPcgNGs8SaUXzotf1yxxeiiwGZ0AAAAASUVORK5CYII=" alt="Groceries Icon"> Groceries</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="Grocery.jpg" alt="Groceries Image">
+                    <h3>Fresh Vegetables</h3>
+                    <p>Organic and fresh vegetables.</p>
+                    <button class="add-to-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                </div>
+                <!-- Repeat similar blocks for more products -->
+            </div>
+        </section>
+
+        <section id="home-appliances">
+            <h2><i class="fas fa-couch"></i> Home Appliances</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="HomeAppliances.jpg" alt="Home Appliances Image">
+                    <h3>Smart Refrigerators</h3>
+                    <p>Keep your food fresh and organized.</p>
+                    <button class="add-to-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                </div>
+                <!-- Repeat similar blocks for more products -->
+            </div>
+        </section>
+
+        <section id="mobile-phones">
+            <h2><i class="fas fa-mobile-alt"></i> Mobile Phones & Accessories</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="Iphone.jpg" alt="Mobile Phones Image">
+                    <h3>Latest Smartphones</h3>
+                    <p>Stay connected with the latest tech.</p>
+                    <button class="add-to-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                </div>
+                <!-- Repeat similar blocks for more products -->
+            </div>
+        </section>
+
+        <section id="clothing">
+            <h2><i class="fas fa-tshirt"></i> Clothing</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="Clothing.jpg" alt="Clothing Image">
+                    <h3>Trendy Outfits</h3>
+                    <p>Fashionable and comfortable clothing.</p>
+                    <button class="add-to-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                </div>
+                <!-- Repeat similar blocks for more products -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 E-Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
